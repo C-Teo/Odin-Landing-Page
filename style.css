@@ -67,3 +67,30 @@ button {
     line-height: 14rem;
     margin-top: 3.2rem;
 }
+
+.info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.info h2 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.info-images-and-description {
+    display: flex;
+    margin: 0 20rem;
+}
+
+.second-image {
+    width: 10rem;
+    height: 10rem;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #3882F6;
+    border-radius: 1.5rem;
+}
