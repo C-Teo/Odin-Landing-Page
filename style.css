@@ -25,6 +25,7 @@ h3 {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: bolder;
+    margin-bottom: 1.2rem;
 }
 
 button {
@@ -33,6 +34,7 @@ button {
     color: white;
     border-radius: 8px;
     padding: 0.2rem 1.5rem;
+    margin-top: 0.5rem;
 }
 
 .header {
@@ -40,7 +42,7 @@ button {
     color: white;
     display: flex;
     justify-content: space-between;
-    padding: 0 10rem;
+    padding: 0 20rem;
 }
 
 .links {
@@ -52,12 +54,16 @@ button {
     background-color: #1F2937;
     color: #E5E7EB;
     display: flex;
-    padding: 0 10rem;
-    height: 33vh;
+    padding: 0 20rem;
+    height: 22rem;
+    gap: 3rem;
 }
 
 .image {
     background-color: gray;
-    width: 25rem;
-    height: 13rem;
+    width: 50rem;
+    height: 14rem;
+    text-align: center;
+    line-height: 14rem;
+    margin-top: 3.2rem;
 }
