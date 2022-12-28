@@ -126,3 +126,14 @@ button {
     font-weight: bold;
     font-size: 28px;
 }
+
+.popup {
+    
+}
+
+.popup-box {
+    background-color: #3882F6;
+    margin: 6rem 10rem;
+    padding: 1rem 10rem;
+    display: flex;
+}
