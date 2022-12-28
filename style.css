@@ -15,12 +15,20 @@ h1 {
 }
 
 h2 {
-    font-size: 18px;
+    font-size: 14px;
     color: #F9FAF8;
+    margin-top: 1.5rem;
 }
 
 .header {
     background-color: #1F2937;
     color: white;
     display: flex;
+    justify-content: space-between;
+    padding: 0 7rem;
+}
+
+.links {
+    display: flex;
+    gap: 2rem;
 }
