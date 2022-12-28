@@ -3,6 +3,7 @@
 }
 
 body {
+    min-height: 100vh;
     margin: 0;
     padding: 0;
     display: flex;
@@ -20,15 +21,35 @@ h2 {
     margin-top: 1.5rem;
 }
 
+h3 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
 .header {
     background-color: #1F2937;
     color: white;
     display: flex;
     justify-content: space-between;
-    padding: 0 7rem;
+    padding: 0 10rem;
 }
 
 .links {
     display: flex;
     gap: 2rem;
+}
+
+.content {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    padding: 0 10rem;
+    height: 33vh;
+}
+
+.image {
+    background-color: gray;
+    width: 25rem;
+    height: 13rem;
 }
