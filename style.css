@@ -83,7 +83,15 @@ button {
 
 .info-images-and-description {
     display: flex;
-    margin: 0 20rem;
+    justify-content: center;
+    width: 700px;
+    gap: 4rem;
+}
+
+.sub-info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .second-image {
