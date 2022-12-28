@@ -42,6 +42,7 @@ button {
     color: white;
     display: flex;
     justify-content: space-between;
+    height: 5rem;
     padding: 0 20rem;
 }
 
@@ -55,7 +56,7 @@ button {
     color: #E5E7EB;
     display: flex;
     padding: 0 20rem;
-    height: 22rem;
+    height: 23rem;
     gap: 3rem;
 }
 
@@ -65,6 +66,7 @@ button {
     height: 14rem;
     text-align: center;
     line-height: 14rem;
+    margin-left: auto;
     margin-top: 3.2rem;
 }
 
@@ -73,12 +75,14 @@ button {
     flex-direction: column;
     text-align: center;
     align-items: center;
+    margin: 4rem;
 }
 
 .info h2 {
     color: #1F2937;
     font-size: 36px;
     font-weight: bolder;
+    margin-bottom: 3rem;
 }
 
 .info-images-and-description {
@@ -101,4 +105,8 @@ button {
     border-width: 5px;
     border-color: #3882F6;
     border-radius: 1.5rem;
+}
+
+.quote {
+    background-color: #E5E7EB;
 }
