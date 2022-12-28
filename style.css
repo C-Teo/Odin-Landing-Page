@@ -27,6 +27,14 @@ h3 {
     font-weight: bolder;
 }
 
+button {
+    background-color: #3882F6;
+    border: #3882F6;
+    color: white;
+    border-radius: 8px;
+    padding: 0.2rem 1.5rem;
+}
+
 .header {
     background-color: #1F2937;
     color: white;
